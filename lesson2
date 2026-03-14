@@ -1,0 +1,50 @@
+# Git Lesson 2: Branching and Merging
+
+## What is a Branch?
+A branch in Git allows you to diverge from the main line of development and continue to do work without messing with that main line.
+
+## Creating a Branch
+To create a new branch:
+```
+git branch <branch-name>
+```
+
+## Switching Branches
+To switch to a branch:
+```
+git checkout <branch-name>
+```
+Or, using the newer command:
+```
+git switch <branch-name>
+```
+
+## Creating and Switching in One Step
+```
+git checkout -b <branch-name>
+```
+Or:
+```
+git switch -c <branch-name>
+```
+
+## Merging Branches
+To merge changes from another branch into your current branch:
+```
+git merge <branch-name>
+```
+
+## Deleting a Branch
+After merging, you can delete a branch:
+```
+git branch -d <branch-name>
+```
+
+---
+
+**Practice:**
+1. Create a branch called `feature`.
+2. Switch to the `feature` branch.
+3. Make some changes and commit them.
+4. Switch back to `main` and merge `feature` into it.
+5. Delete the `feature` branch.
