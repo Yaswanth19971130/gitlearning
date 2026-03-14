@@ -48,3 +48,4 @@ git branch -d <branch-name>
 3. Make some changes and commit them.
 4. Switch back to `main` and merge `feature` into it.
 5. Delete the `feature` branch.
+6. new commit
